@@ -1,0 +1,136 @@
+{
+    "hotel": {
+      "name": "Grand View Hotel",
+      "type": "Resort",
+      "location": {
+        "city": "Beach City",
+        "state": "CA",
+        "country": "USA"
+      }
+    },
+    "rooms": [
+      {
+        "room_id": 1, 
+        "name": "Standard Ocean View",
+        "type": "Queen",
+        "beds": 1,
+        "baths": 1,
+        "sqft": 350,
+        "building_level": 3,
+        "amenities": [  
+          "Wi-Fi",
+          "Flat-screen TV",
+          "Mini fridge",
+          "Coffee maker"
+        ],
+        "resort_amenities": [  
+          "Swimming pool",
+          "Jacuzzi",
+          "Fitness center",
+          "Spa"
+        ],
+        "pricing": {
+          "standard": 150,
+          "weekend": 180,
+          "peak": 220
+        },
+        "availability": [
+          {
+            "date": "2024-03-10",
+            "available": true
+          },
+          {
+            "date": "2024-03-11",
+            "available": false
+          },
+          {
+            "date": "2024-03-12",
+            "available": true
+          },
+          {
+            "date": "2024-03-13",
+            "available": true
+          },
+          {
+            "date": "2024-03-14",
+            "available": false
+          }
+        ]
+      },
+      {
+        "room_id": 2,  
+        "name": "Deluxe Balcony Room",
+        "type": "King",
+        "beds": 1,
+        "baths": 1.5,
+        "sqft": 450,
+        "building_level": 5,
+        "amenities": [  
+          "Wi-Fi",
+          "Flat-screen TV",
+          "Mini fridge",
+          "Coffee maker",
+          "Balcony"
+        ],
+        "resort_amenities": [  
+          "Swimming pool",
+          "Jacuzzi",
+          "Fitness center",
+          "Spa"
+        ],
+        "pricing": {
+          "standard": 200,
+          "weekend": 250,
+          "peak": 300
+        },
+        "availability": [
+          {
+            "date": "2024-03-10",
+            "available": true
+          },
+          {
+            "date": "2024-03-11",
+            "available": true
+          },
+          {
+            "date": "2024-03-12",
+            "available": false
+          },
+          {
+            "date": "2024-03-13",
+            "available": true
+          },
+          {
+            "date": "2024-03-14",
+            "available": true
+          }
+        ]
+      },
+      {
+        "room_id": 3, 
+        "name": "Family Suite",
+        "type": "Double Queen",
+        "beds": 2,
+        "baths": 2,
+        "sqft": 600,
+        "building_level": 2,
+        "amenities": [ 
+          "Wi-Fi",
+          "Flat-screen TV",
+          "Mini fridge",
+          "Coffee maker",
+          "Sofa bed"
+        ],
+        "resort_amenities": [  
+          "Swimming pool",
+          "Jacuzzi",
+          "Fitness center",
+          "Spa"
+        ],
+        "pricing": {
+          "standard": 250,
+          "weekend": 300
+        }
+    }
+    ]
+}
